@@ -25,7 +25,7 @@ const Card = ({ image }) => {
     })
 
   return (
-    <div className="card sticky top-[15vh] flex flex-col items-center w-[90vw] md:w-[27vw] py-[15vh] px-5 rounded-[25px] gap-4 bg-[#2e251e]">
+    <div className="card sticky top-[15vh] flex flex-col items-center w-[90vw] md:w-[27vw] py-[20vh] px-5 rounded-[25px] gap-4 bg-[#2e251e]">
       <img
         className="w-[180px] aspect-square object-contain"
         src={image}
